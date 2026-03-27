@@ -38,48 +38,48 @@
 
 ## Numbered Execution Steps
 
-- [ ] **Step 1: Project Structure Setup (greenfield)**
-  - [ ] `apps/web` のVite+React+TypeScript基盤を作成
-  - [ ] lint/test実行に必要な最小依存を追加
+- [x] **Step 1: Project Structure Setup (greenfield)**
+  - [x] `apps/web` のVite+React+TypeScript基盤を作成
+  - [x] lint/test実行に必要な最小依存を追加
 
-- [ ] **Step 2: Domain Model & Validation Core (US-04, PBT前提)**
-  - [ ] `types.ts` に `ThemeInput`, `ValidationReport`, `SceneViewModel` などを定義
-  - [ ] `validation.ts` に純粋関数のYAML検証境界を実装
-  - [ ] 行番号付きエラー情報を返す構造を実装
+- [x] **Step 2: Domain Model & Validation Core (US-04, PBT前提)**
+  - [x] `types.ts` に `ThemeInput`, `ValidationReport`, `SceneViewModel` などを定義
+  - [x] `validation.ts` に純粋関数のYAML検証境界を実装
+  - [x] 行番号付きエラー情報を返す構造を実装
 
-- [ ] **Step 3: State Machine & Store (US-01/03/04/05)**
-  - [ ] Zustandで `Idle/Generating/Editing/Validating/PreviewReady/Error` 状態遷移を実装
-  - [ ] 重複生成要求抑止と再試行遷移を実装
+- [x] **Step 3: State Machine & Store (US-01/03/04/05)**
+  - [x] Zustandで `Idle/Generating/Editing/Validating/PreviewReady/Error` 状態遷移を実装
+  - [x] 重複生成要求抑止と再試行遷移を実装
 
-- [ ] **Step 4: API Boundary Integration (US-01, US-02 bridge)**
-  - [ ] `script-generation-client.ts` でWorkers API呼び出し境界を実装（モック可能）
-  - [ ] `error-envelope.ts` で安全なUIエラー正規化を実装
+- [x] **Step 4: API Boundary Integration (US-01, US-02 bridge)**
+  - [x] `script-generation-client.ts` でWorkers API呼び出し境界を実装（モック可能）
+  - [x] `error-envelope.ts` で安全なUIエラー正規化を実装
 
-- [ ] **Step 5: Frontend Components Generation (US-01/03/04/05)**
-  - [ ] ThemeInput, Editor, Validation, Preview, Status系コンポーネントを実装
-  - [ ] `data-testid` を全インタラクティブ要素へ付与
-  - [ ] `App.tsx` でコンポーネント統合
+- [x] **Step 5: Frontend Components Generation (US-01/03/04/05)**
+  - [x] ThemeInput, Editor, Validation, Preview, Status系コンポーネントを実装
+  - [x] `data-testid` を全インタラクティブ要素へ付与
+  - [x] `App.tsx` でコンポーネント統合
 
-- [ ] **Step 6: Preview Rendering Logic (US-05)**
-  - [ ] `preview-renderer.ts` と `SceneCanvas` で局所再描画実装
-  - [ ] 未解決アセット時のフォールバック表示を実装
+- [x] **Step 6: Preview Rendering Logic (US-05)**
+  - [x] `preview-renderer.ts` と `SceneCanvas` で局所再描画実装
+  - [x] 未解決アセット時のフォールバック表示を実装
 
-- [ ] **Step 7: Unit Testing (US-01/03/04/05)**
-  - [ ] validation純粋関数テスト
-  - [ ] store状態遷移テスト
-  - [ ] 主要コンポーネント描画・操作テスト
+- [x] **Step 7: Unit Testing (US-01/03/04/05)**
+  - [x] validation純粋関数テスト
+  - [x] store状態遷移テスト
+  - [x] 主要コンポーネント描画・操作テスト
 
-- [ ] **Step 8: Documentation Generation**
-  - [ ] `aidlc-docs/construction/u1-frontend-experience/code/implementation-summary.md` を作成
-  - [ ] 実装ファイル一覧、ストーリー対応、既知制約を記録
+- [x] **Step 8: Documentation Generation**
+  - [x] `aidlc-docs/construction/u1-frontend-experience/code/implementation-summary.md` を作成
+  - [x] 実装ファイル一覧、ストーリー対応、既知制約を記録
 
-- [ ] **Step 9: Deployment Artifacts**
-  - [ ] `apps/web` のビルド/起動スクリプトを整備
-  - [ ] Pages配備前提の環境変数テンプレートを追加
+- [x] **Step 9: Deployment Artifacts**
+  - [x] `apps/web` のビルド/起動スクリプトを整備
+  - [x] Pages配備前提の環境変数テンプレートを追加
 
-- [ ] **Step 10: Traceability Completion**
-  - [ ] US-01/03/04/05 の実装完了を計画内でチェック
-  - [ ] U2/U4依存インターフェース境界の実装状況を記録
+- [x] **Step 10: Traceability Completion**
+  - [x] US-01/03/04/05 の実装完了を計画内でチェック
+  - [x] U2/U4依存インターフェース境界の実装状況を記録
 
 ## N/A Steps (This Unit)
 
