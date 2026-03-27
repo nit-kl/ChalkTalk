@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Greenfield
 - **Start Date**: 2026-03-27T04:33:30Z
-- **Current Stage**: CONSTRUCTION - Functional Design (u1-frontend-experience, Awaiting Approval)
+- **Current Stage**: CONSTRUCTION - NFR Requirements (u1-frontend-experience, Awaiting Approval)
 
 ## Workspace State
 - **Existing Code**: No
@@ -48,6 +48,6 @@
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
-- **Current Stage**: Functional Design Complete (u1-frontend-experience)
-- **Next Stage**: NFR Requirements (u1-frontend-experience)
+- **Current Stage**: NFR Requirements Complete (u1-frontend-experience)
+- **Next Stage**: NFR Design (u1-frontend-experience)
 - **Status**: Awaiting approval
