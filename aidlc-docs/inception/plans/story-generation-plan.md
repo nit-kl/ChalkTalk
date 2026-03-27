@@ -4,17 +4,17 @@
 - 対象: `aidlc-docs/inception/requirements/requirements.md`
 - 目的: 要件をINVEST準拠のユーザーストーリーへ変換し、受け入れ基準を明確化する
 - 成果物（必須）:
-  - [ ] `aidlc-docs/inception/user-stories/stories.md` を生成する
-  - [ ] `aidlc-docs/inception/user-stories/personas.md` を生成する
-  - [ ] 各ストーリーに受け入れ基準を付与する
-  - [ ] ペルソナとストーリーの対応を明記する
+  - [x] `aidlc-docs/inception/user-stories/stories.md` を生成する
+  - [x] `aidlc-docs/inception/user-stories/personas.md` を生成する
+  - [x] 各ストーリーに受け入れ基準を付与する
+  - [x] ペルソナとストーリーの対応を明記する
 
 ## 1. 実行チェックリスト（Part 1）
 - [x] ユーザーストーリー実施要否を評価し、`user-stories-assessment.md` を作成
 - [x] ストーリー生成計画（本ファイル）を作成
 - [x] ユーザー回答を回収し、全 `[Answer]:` が埋まっていることを確認
 - [x] 回答の曖昧さ/矛盾を分析し、必要なら追加質問を作成（今回は追加質問なし）
-- [ ] 生成アプローチを確定（承認）
+- [x] 生成アプローチを確定（承認）
 
 ## 2. ストーリー分解アプローチ候補
 
