@@ -40,49 +40,49 @@
 
 ## Numbered Execution Steps
 
-- [ ] **Step 1: API Project Structure Setup (greenfield)**
-  - [ ] `apps/api` の Cloudflare Workers + TypeScript 基盤を作成
-  - [ ] 開発/ビルド/テストスクリプトを定義
+- [x] **Step 1: API Project Structure Setup (greenfield)**
+  - [x] `apps/api` の Cloudflare Workers + TypeScript 基盤を作成
+  - [x] 開発/ビルド/テストスクリプトを定義
 
-- [ ] **Step 2: Domain Model & Validation Core (US-02, SEC-01)**
-  - [ ] `types.ts` に Request/Response/Error/RateLimit の型を定義
-  - [ ] `validation.ts` に theme/locale 検証ロジックを実装
-  - [ ] `yaml-contract.ts` に YAML最小要件チェックを実装
+- [x] **Step 2: Domain Model & Validation Core (US-02, SEC-01)**
+  - [x] `types.ts` に Request/Response/Error/RateLimit の型を定義
+  - [x] `validation.ts` に theme/locale 検証ロジックを実装
+  - [x] `yaml-contract.ts` に YAML最小要件チェックを実装
 
-- [ ] **Step 3: Rate Limiting Component (US-02, NFR-Scalability)**
-  - [ ] `rate-limiter.ts` で判定インターフェースを実装
-  - [ ] `allowed/remaining/retryAfterSec` を返す契約を固定
+- [x] **Step 3: Rate Limiting Component (US-02, NFR-Scalability)**
+  - [x] `rate-limiter.ts` で判定インターフェースを実装
+  - [x] `allowed/remaining/retryAfterSec` を返す契約を固定
 
-- [ ] **Step 4: Provider Invocation Component (US-02, NFR-Performance/Resilience)**
-  - [ ] `provider-client.ts` で Claude API 呼び出し境界を実装
-  - [ ] タイムアウトと限定リトライを実装
+- [x] **Step 4: Provider Invocation Component (US-02, NFR-Performance/Resilience)**
+  - [x] `provider-client.ts` で Claude API 呼び出し境界を実装
+  - [x] タイムアウトと限定リトライを実装
 
-- [ ] **Step 5: Error Normalization & Classification (SEC-02, NFR-Reliability)**
-  - [ ] `error-envelope.ts` で `validation/rate_limit/provider/internal` を正規化
-  - [ ] 内部例外詳細をマスキングして安全応答に変換
+- [x] **Step 5: Error Normalization & Classification (SEC-02, NFR-Reliability)**
+  - [x] `error-envelope.ts` で `validation/rate_limit/provider/internal` を正規化
+  - [x] 内部例外詳細をマスキングして安全応答に変換
 
-- [ ] **Step 6: Script Service Orchestration (US-02)**
-  - [ ] `script-service.ts` で検証 -> 制限 -> 生成 -> 正規化を統合
-  - [ ] requestId 発行と generatedAt 付与を統一
+- [x] **Step 6: Script Service Orchestration (US-02)**
+  - [x] `script-service.ts` で検証 -> 制限 -> 生成 -> 正規化を統合
+  - [x] requestId 発行と generatedAt 付与を統一
 
-- [ ] **Step 7: Worker API Layer Generation (US-02)**
-  - [ ] `index.ts` に `POST /api/script/generate` ハンドラを実装
-  - [ ] CORS/HTTPメソッド制御/JSON応答を実装
+- [x] **Step 7: Worker API Layer Generation (US-02)**
+  - [x] `index.ts` に `POST /api/script/generate` ハンドラを実装
+  - [x] CORS/HTTPメソッド制御/JSON応答を実装
 
-- [ ] **Step 8: Unit Testing & PBT Entry (PBT-01 関連境界)**
-  - [ ] 検証・分類・正規化のユニットテストを作成
-  - [ ] YAML要件チェックとエラー変換性質のテストを追加
+- [x] **Step 8: Unit Testing & PBT Entry (PBT-01 関連境界)**
+  - [x] 検証・分類・正規化のユニットテストを作成
+  - [x] YAML要件チェックとエラー変換性質のテストを追加
 
-- [ ] **Step 9: Documentation Generation**
-  - [ ] `aidlc-docs/construction/u2-script-generation-api/code/implementation-summary.md` を作成
-  - [ ] 実装ファイル一覧、US-02対応、既知制約を記録
+- [x] **Step 9: Documentation Generation**
+  - [x] `aidlc-docs/construction/u2-script-generation-api/code/implementation-summary.md` を作成
+  - [x] 実装ファイル一覧、US-02対応、既知制約を記録
 
-- [ ] **Step 10: Deployment Artifacts & Traceability**
-  - [ ] `wrangler.toml` と `.dev.vars.example` を整備
-  - [ ] US-02 の完了と U1 契約接続点を計画内で [x] 化
+- [x] **Step 10: Deployment Artifacts & Traceability**
+  - [x] `wrangler.toml` と `.dev.vars.example` を整備
+  - [x] US-02 の完了と U1 契約接続点を計画内で [x] 化
 
 ## N/A Steps (This Unit)
 
-- [ ] Frontend Components Generation - N/A for U2
-- [ ] Repository Layer Generation - N/A（永続リポジトリなし）
-- [ ] Database Migration Scripts - N/A（DBなし）
+- [x] Frontend Components Generation - N/A for U2
+- [x] Repository Layer Generation - N/A（永続リポジトリなし）
+- [x] Database Migration Scripts - N/A（DBなし）
