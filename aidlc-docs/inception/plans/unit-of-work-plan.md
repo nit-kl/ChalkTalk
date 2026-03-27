@@ -5,15 +5,15 @@
 - [x] Unit候補と責務境界の初期案を作成
 - [x] ユーザー回答を回収し、全 `[Answer]:` が埋まっていることを確認
 - [x] 回答の曖昧さ/矛盾を分析し、必要なら追質問を追加（今回は追質問なし）
-- [ ] 分解方針を確定して承認を取得
+- [x] 分解方針を確定して承認を取得
 
 ## 2. 必須成果物（Part 2で生成）
-- [ ] `aidlc-docs/inception/application-design/unit-of-work.md`
-- [ ] `aidlc-docs/inception/application-design/unit-of-work-dependency.md`
-- [ ] `aidlc-docs/inception/application-design/unit-of-work-story-map.md`
-- [ ] Greenfield向けコード構成戦略の明文化（`unit-of-work.md` 内）
-- [ ] Unit境界と依存の妥当性検証
-- [ ] 全ストーリーのUnit割当確認
+- [x] `aidlc-docs/inception/application-design/unit-of-work.md`
+- [x] `aidlc-docs/inception/application-design/unit-of-work-dependency.md`
+- [x] `aidlc-docs/inception/application-design/unit-of-work-story-map.md`
+- [x] Greenfield向けコード構成戦略の明文化（`unit-of-work.md` 内）
+- [x] Unit境界と依存の妥当性検証
+- [x] 全ストーリーのUnit割当確認
 
 ## 3. 初期分解案（たたき台）
 - **U1 Frontend Experience Unit**: テーマ入力、YAML編集、バリデーション表示、プレビューUI
