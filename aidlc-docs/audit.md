@@ -281,3 +281,19 @@
 **Context**: Construction - Code Generation Part 1 planning gate
 
 ---
+
+## Code Generation - Approval Response (u1-frontend-experience)
+**Timestamp**: 2026-03-27T06:11:10Z
+**User Input**: "次に進んでください"
+**AI Response**: "Treated as explicit approval and accepted u1 code generation output as complete."
+**Context**: Construction - Code Generation approval received
+
+---
+
+## Functional Design - Completion Prompt (u2-script-generation-api)
+**Timestamp**: 2026-03-27T06:11:10Z
+**User Input**: "次に進んでください"
+**AI Response**: "Generated functional design artifacts (business-logic-model, business-rules, domain-entities) for u2-script-generation-api."
+**Context**: Construction - Functional Design completion gate
+
+---

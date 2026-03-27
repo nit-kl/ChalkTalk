@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Greenfield
 - **Start Date**: 2026-03-27T04:33:30Z
-- **Current Stage**: CONSTRUCTION - Code Generation Complete (u1-frontend-experience, Awaiting Approval)
+- **Current Stage**: CONSTRUCTION - Functional Design (u2-script-generation-api, Awaiting Approval)
 
 ## Workspace State
 - **Existing Code**: No
@@ -48,6 +48,6 @@
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
-- **Current Stage**: Code Generation Complete (u1-frontend-experience)
-- **Next Stage**: Next Unit or Build and Test
+- **Current Stage**: Functional Design Complete (u2-script-generation-api)
+- **Next Stage**: NFR Requirements (u2-script-generation-api)
 - **Status**: Awaiting approval
